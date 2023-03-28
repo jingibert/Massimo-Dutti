@@ -1,0 +1,13 @@
+//create a class for each color
+@each $shade, $value in $first-colors {
+  .bg-#{$shade} {
+    background-color: $value;
+  }
+}
+
+.bg-light-red {
+  // justify-content: center;
+  @media (min-width: $break-sm) {
+    align-items: center;
+  }
+}

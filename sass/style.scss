@@ -1,4 +1,8 @@
-// @import "setup";
+//import holygrail
+@import "../node_modules/holygrailcss/scss/style";
 
-@import "../node_modules/holygrailcss/scss/style.scss";
+//custom setup for holygrail
+@import "setup";
 
+//import my partials
+@import "partials";

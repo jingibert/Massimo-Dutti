@@ -11563,4 +11563,26 @@ ul.list-clear li.list-box:last-child {
 }
 .is-rtl .header-account-back svg-icon svg {
   transform: rotate(180deg);
+}
+
+.bg-light-red {
+  background-color: #EE7C7C;
+}
+
+.bg-light-blue {
+  background-color: #B7E1EA;
+}
+
+.bg-gray {
+  background-color: #4C4E4C;
+}
+
+.bg-light-gray {
+  background-color: #D9D9D9;
+}
+
+@media (min-width: 768px) {
+  .bg-light-red {
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
